@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BISMILLAH RICE STORE</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #006400;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background: #006400;
+      color: white;
+    }
+    .btn {
+      display: inline-block;
+      padding: 8px 15px;
+      margin: 5px;
+      background: #006400;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .btn:hover {
+      background: #004d00;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #eee;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍚 BISMILLAH RICE STORE</h1>
+    <p>সরাসরি অর্ডার করুন - মোবাইল: 01775260448</p>
+  </header>
+
+  <div class="container">
+    <h2>আমাদের চালের দাম</h2>
+    <table>
+      <tr>
+        <th>চালের নাম</th>
+        <th>প্রতি কেজির দাম</th>
+        <th>25 কেজি বস্তা</th>
+        <th>50 কেজি বস্তা</th>
+      </tr>
+      <tr><td>মিনিকেট চাল</td><td>80 ৳</td><td>2000 ৳</td><td>4000 ৳</td></tr>
+      <tr><td>আঠাশ চাল</td><td>60 ৳</td><td>1500 ৳</td><td>3000 ৳</td></tr>
+      <tr><td>পাইজাম চাল</td><td>60 ৳</td><td>1500 ৳</td><td>3000 ৳</td></tr>
+      <tr><td>হাস্কি চাল</td><td>60 ৳</td><td>1500 ৳</td><td>3000 ৳</td></tr>
+      <tr><td>গুটি চাল</td><td>56 ৳</td><td>1400 ৳</td><td>2800 ৳</td></tr>
+      <tr><td>বাসমতি চাল</td><td>98 ৳</td><td>2450 ৳</td><td>4900 ৳</td></tr>
+      <tr><td>মোটা আতপ</td><td>52 ৳</td><td>1300 ৳</td><td>2600 ৳</td></tr>
+      <tr><td>মিনিকেট আতপ</td><td>70 ৳</td><td>1750 ৳</td><td>3500 ৳</td></tr>
+      <tr><td>কাতারী আতপ</td><td>90 ৳</td><td>2250 ৳</td><td>4500 ৳</td></tr>
+    </table>
+
+    <h2>অর্ডার করুন</h2>
+    <p>WhatsApp এ সরাসরি অর্ডার করুন:</p>
+    <a class="btn" href="https://wa.me/8801775260448?text=আমি চাল অর্ডার করতে চাই" target="_blank">📲 WhatsApp Order</a>
+  </div>
+
+  <footer>
+    <p>📍 দোকান নং-৪৭, ঢাকা উত্তর সিটি কর্পোরেশন মার্কেট,<br>
+    টাউন হল (কাঁচা বাজার), মোহাম্মদপুর, ঢাকা-১২০৭</p>
+    <p>© 2025 BISMILLAH RICE STORE</p>
+  </footer>
+</body>
+</html>
